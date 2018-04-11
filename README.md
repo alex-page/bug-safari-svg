@@ -1,4 +1,7 @@
-# SVG feColorMatrix doesn't work in Safari when pulled in with a file
+# 🐛  SVG feColorMatrix
+
+> Safari feColorMatrix doesn't work in Safari with external a files
+
 
 When using a file ( `filters.svg` ) file with the ID's of the filters you cannot do this in safari:
 ```

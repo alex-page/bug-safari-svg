@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		body {
+			text-align: center;
+		}
+
+		img {
+			display: inline-block;
+			width: 4em;
+		}
+
+		.embedded {
+			filter:  url(#embedded);
+		}
+
+		.external {
+			filter:url("filters.svg#external")
+		}
+
+		svg {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<svg>
+		<filter id="embedded">
+			<feColorMatrix
+					in="SourceGraphic"
+					type="matrix"
+					values="0.567, 0.433, 0,     0, 0
+									0.558, 0.442, 0,     0, 0
+									0,     0.242, 0.758, 0, 0
+									0,     0,     0,     1, 0"/>
+		</filter>
+	</svg>
+	<img class="embedded" src="redsquare.png"/>
+	<img class="external" src="redsquare.png"/>
+	<img src="redsquare.png"/>
+	<div class="lol"></div>	
+</body>
+</html>

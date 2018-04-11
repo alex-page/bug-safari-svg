@@ -13,7 +13,7 @@ The example shows a red box three times:
 - Box three is the default state
 
 
-When using a file ( `filters.svg` ) file with the ID's of the filters you cannot do this CSS in safari:
+When using a file ( `filters.svg` ) with the ID's of the filters you cannot do this CSS in safari:
 ```css
 .filter{
   filter: url( "filters.svg#deuteranopia" );

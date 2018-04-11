@@ -15,14 +15,14 @@ The example shows a red box three times:
 
 When using a file ( `filters.svg` ) with the ID's of the filters you cannot do this CSS in safari:
 ```css
-.filter{
+.filter {
   filter: url( "filters.svg#deuteranopia" );
 }
 ```
 
 You have to embed the svg into the HTML and use this in CSS:
 ```css
-.filter{
+.filter {
   filter: url( "#deuteranopia" );
 }
 ```

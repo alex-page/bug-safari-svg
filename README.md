@@ -4,9 +4,12 @@
 > Safari feColorMatrix doesn't work with external a files
 
 
+This issue was found in *safari 11.1* and *Mac OS sierra 10.2.6*
+
+
 The example shows a red box three times:
-- Box one is using an embedded svg
-- Box two is using an svg file pointing to the ID
+- Box one has an SVG filter using an embedded svg
+- Box two has an SVG filter using an svg file pointing to the ID
 - Box three is the default state
 
 

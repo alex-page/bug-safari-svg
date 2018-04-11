@@ -4,7 +4,7 @@
 > Safari feColorMatrix doesn't work with external a files
 
 
-This issue was found in *safari 11.1* and *Mac OS sierra 10.2.6*
+This issue was found in **safari 11.1** and **Mac OS sierra 10.2.6**
 
 
 The example shows a red box three times:

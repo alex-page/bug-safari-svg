@@ -4,7 +4,7 @@
 > Safari feColorMatrix doesn't work with external a files
 
 
-This issue was found in **Safari 11.1** and **Mac OS Sierra 10.2.6**
+This issue was found in **Safari 11.1** and **Mac OS High Sierra 10.13.4**
 
 
 This [example](http://alexpage.com.au/bug-safari-svg) shows a red box three times:

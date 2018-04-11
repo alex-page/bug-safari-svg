@@ -7,9 +7,9 @@
 This issue was found in **Safari 11.1** and **Mac OS Sierra 10.2.6**
 
 
-The example shows a red box three times:
-- Box one has an SVG filter using an embedded svg
-- Box two has an SVG filter using an svg file pointing to the ID
+This [example](http://alexpage.com.au/bug-safari-svg) shows a red box three times:
+- Box one adds a SVG filter using css to embedd a svg
+- Box two adds a SVG filter using an external svg file with css pointing to file and ID
 - Box three is the default state
 
 
